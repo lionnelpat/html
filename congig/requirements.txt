@@ -1,0 +1,4 @@
+flask
+yagmail
+keyring
+re 

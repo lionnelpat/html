@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesag | {{ name }}</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header class="head">
+        <img class="logo" src="static/images/logo.png" alt="logo du cesag">
+        <nav >
+            <ul class="menu">
+                <li><a href="{{  url_for('index') }}">Accueil</a></li>
+                <li><a href="{{  url_for('about') }}">A propos</a></li>
+                <li><a href="{{  url_for('services') }}">Services</a></li>
+                <li><a href="{{  url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section>
+            <h1>Bienvenu sur notre site</h1>
+            <h4> Nous sommes sur la page d'accueil </h4>
+            <h3> Liste des cours déjà vus: </h3>
+            <ol>
+                <li>SQL</li>
+                <li>Base de données</li>
+                <li>PYTHON</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Les tableaux</h2>
+            <h4> Les meilleurs equipes de foot en afrique</h4>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Prenom</th>
+                        <th>Note</th>
+                        <th>Appreciation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>DOE</td>
+                        <td>john</td>
+                        <td>17</td>
+                        <td>T Bien</td>
+                    </tr>
+                    <tr>
+                        <td>DOE</td>
+                        <td>john</td>
+                        <td>17</td>
+                        <td>T Bien</td>
+                    </tr>
+                    <tr>
+                        <td>DOE</td>
+                        <td>john</td>
+                        <td>17</td>
+                        <td>T Bien</td>
+                    </tr>
+                    <tr>
+                        <td>DOE</td>
+                        <td>john</td>
+                        <td>17</td>
+                        <td>T Bien</td>
+                    </tr>
+                    <tr>
+                        <td>DOE</td>
+                        <td>john</td>
+                        <td>17</td>
+                        <td>T Bien</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <span>copyright © Mai 2022, </span> 
+            <span> &nbsp; made with ☕ and ❤️ by <strong>Lionelhost</strong></span>
+        </div>
+    </footer>
+
+</body>
+</html>
